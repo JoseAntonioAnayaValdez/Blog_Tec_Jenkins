@@ -16,4 +16,4 @@ EXPOSE 5000
 
 
 # Comando por defecto
-CMD ["flask", "run"]
+CMD ["flask", "run", "0.0.0.0:5000"]
